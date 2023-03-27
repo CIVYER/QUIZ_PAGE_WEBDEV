@@ -1,24 +1,28 @@
-html, body, .container{
+html{
     height: 100%;
 }
-
-.container{
-    color: white;
-    display: grid;
-    grid-template-columns: 200px auto 200px;
-    justify-content: space-between;
-    align-content: center;
-    justify-items: center;  
-    align-items: center;
-    
+body{
+    background-image: url(./start.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: #000310;
+    background-position: center;
+    background
 }
 
-.grid-item5{
-
-}
 .btn-start{
-    height: 100px;
-    width: 100px;
-    color: black;
+    --size: 100%;
+    --s: 305px;
+    background-image: url(./liftOff.png);
+    background-repeat: no-repeat;
+    background-size:  100% 90%;
+    background-position: center;
+    width: var(--s);
+    height: 165px;
+    background-color: transparent;
     cursor: pointer;
+    border: none;
+    position: absolute;
+    bottom: -2vh;
+    right: 1vw;
 }
