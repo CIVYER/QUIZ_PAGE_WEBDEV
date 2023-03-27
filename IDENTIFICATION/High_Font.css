@@ -1,0 +1,49 @@
+
+.qfont{
+	font-family: "WIO";
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+
+}
+
+.answered{
+    font-family: "WIO";
+    letter-spacing: 10px;
+    text-transform: lowercase;
+    padding-left: 100px;
+
+}
+
+
+
+.unanswered{
+    font-family: "WIO";
+    font-size: x-large;
+    letter-spacing: 10px;
+    text-transform: lowercase;
+    padding-left: 100px;
+    
+
+    
+}
+
+.ans_cssID{
+    font-family: "WIO";
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    text-align: left;
+    line-height: 50px;
+    }
+
+.seven{
+    position: static;
+    padding-top: 9vh;
+}
+
+ .sev{
+       height: 110px;
+ }
+

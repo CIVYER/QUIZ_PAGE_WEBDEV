@@ -1,0 +1,24 @@
+html, body, .container{
+    height: 100%;
+}
+
+.container{
+    color: white;
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    justify-content: space-between;
+    align-content: center;
+    justify-items: center;  
+    align-items: center;
+    
+}
+
+.grid-item5{
+
+}
+.btn-start{
+    height: 100px;
+    width: 100px;
+    color: black;
+    cursor: pointer;
+}

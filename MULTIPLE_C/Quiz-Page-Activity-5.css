@@ -1,0 +1,29 @@
+/*.container{
+	color: white;
+	display: grid;
+    grid-template-columns: 200px auto 200px;
+	justify-content: space-between;
+	align-content: center;
+	justify-items: center;	
+    align-items: center;
+}
+
+.grid-item4{
+	justify-self: left;
+}
+
+.grid-item5{
+	align-items: center;
+}
+
+.grid-item6{
+	justify-self: right;
+}
+
+.instr{
+    font-family: "WIO";
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    text-align: center;
+}*/

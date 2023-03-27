@@ -1,0 +1,22 @@
+:root{
+	--right: 80vw;
+	--unanswered: calc(var(--right) - 50vw);
+}
+.answered_box{
+	width: 50px;
+	height: 50px;
+	border: 8px solid whitesmoke;
+	background-color: limegreen;
+	position: absolute;
+ 	right: var(--right);
+/* 	bottom: var(--bot);*/
+	
+}
+.unanswered_box{
+	width: 50px;
+  	height: 50px;
+  	border: 8px solid whitesmoke;
+  	background-color: orangered;
+  	position: absolute;
+ 	right: var(--unanswered);
+}

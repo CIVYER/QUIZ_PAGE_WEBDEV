@@ -1,0 +1,35 @@
+.btn-left{
+	background-image: url(./pictures/left-arrow.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	width: 120px;
+	height: 70px;
+	background-color: #000310;
+	border: none;
+	cursor: pointer;
+}
+
+.btn-right{
+	background-image: url(./pictures/right-arrow.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	width: 120px;
+	height: 70px;
+	background-color: #000310;
+	cursor: pointer;
+	border: none;
+}
+
+.btn-sub{
+	background-image: url(./pictures/submit.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	width: 180px;
+	height: 150px;
+	background-color: transparent;
+	cursor: pointer;
+	border: none;
+}

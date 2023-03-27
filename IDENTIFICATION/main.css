@@ -1,0 +1,75 @@
+body{
+	background-color: #000310;
+	margin: 0px;
+} 
+
+html, body, .container{
+    height: 100%;
+}
+
+@font-face{
+	font-family: "Suissnord";
+	src: url("./fonts/Suissnord.otf");
+}
+
+@font-face{
+	font-family: "WIO";
+	src: url("./fonts/WIO.otf");
+} 
+
+.unique{
+	color: white;
+	display: grid;
+    grid-template-columns: 200px auto 200px;
+	justify-content: space-between;
+	align-content: center;
+	justify-items: center;	
+    align-items: center;
+}
+
+.Qtitle-small{
+    font-family: "Suissnord";
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    font-size: 20px;
+    text-align: top;
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 38px;
+}
+
+#Qtitle{
+    font-family: "Suissnord";
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    word-spacing: 10px;  
+}
+
+.instr{
+    font-family: "WIO";
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    text-align: center;
+}
+
+.grid-item4{
+	grid-row: span 3;
+	justify-self: left;
+}
+.grid-item5{
+/*	grid-row: span 3;*/
+	align-items: center;
+}
+.grid-item6{
+	grid-row: span 3;
+	justify-self: right;
+}
+
+.grid-item8{
+/*	grid-row: span 3;*/
+	justify-self: center;
+}
+

@@ -1,0 +1,50 @@
+body{
+	background-color: #000310;
+}
+
+html, body, .container{
+    height: 100%;
+}
+
+@font-face{
+	font-family: "Suissnord";
+	src: url("Suissnord.otf");
+}
+
+@font-face{
+	font-family: "wio";
+	src: url("WIO.otf");
+
+}
+
+.container{
+	color: white;
+	display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: auto auto 95px;
+	justify-content: space-between;
+	align-content: center;
+	justify-items: center;	
+    align-items: center;
+    
+}
+
+.grid-item4{
+	justify-self: left;
+}
+
+.grid-item5{
+	align-items: center;
+}
+
+.grid-item6{
+	justify-self: right;
+}
+
+.questions{
+
+}
+
+.choice{
+    
+}

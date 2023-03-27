@@ -1,0 +1,75 @@
+body{
+	background-color: #000310;
+}
+
+html, body, .container{
+    height: 100%;
+}
+
+@font-face{
+	font-family: "Suissnord";
+	src: url("Suissnord.otf");
+}
+
+@font-face{
+	font-family: "wio";
+	src: url("WIO.otf");
+
+}
+
+.container{
+	color: white;
+	display: grid;
+    grid-template-columns: 200px auto 200px;
+	justify-content: space-around;
+	align-content: center;
+	justify-items: center;	
+    align-items: center;
+    
+}
+
+ .grid-item1{
+
+}
+
+.grid-item2{
+    
+}
+
+.grid-item3{
+    
+} 
+
+.grid-item4{
+	justify-self: left;
+}
+
+.grid-item5{
+	align-items: center;
+}
+
+.grid-item6{
+	justify-self: right;
+}
+
+#Qtitle{
+    font-family: "Suissnord";
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    
+}
+#Qheader {
+    font-family: "Suissnord";
+    font-size: 20px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 500px;
+    text-indent: -100px;
+    height: 100px;
+    align-items: top;
+    
+}

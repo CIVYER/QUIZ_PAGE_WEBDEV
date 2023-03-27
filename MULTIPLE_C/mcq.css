@@ -1,0 +1,62 @@
+.container{
+	color: white;
+	display: grid;
+    grid-template-columns: 200px auto 200px;
+	justify-content: space-between;
+	grid-template-rows: auto 100px 1px;
+	align-content: center;
+	justify-items: center;	
+    align-items: center;
+    
+}
+
+.grid-item4{
+	justify-self: left;
+}
+
+.grid-item5{
+	align-items: center;
+}
+
+.grid-item6{
+	justify-self: right;
+}
+.grid-item8{
+	height: 10vh;
+}
+
+.choice-grid{
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: space-around;
+	justify-items: left;
+
+}
+
+.question{
+	text-align: center; 
+	align-items: center;
+	font-family: monospace;
+}
+
+.choice{
+	font-family: "WIO";
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+
+}
+
+.q-q1{
+	font-family: "WIO";
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+
+}
+
