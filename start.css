@@ -23,6 +23,6 @@ body{
     cursor: pointer;
     border: none;
     position: absolute;
-    bottom: -2vh;
-    right: 1vw;
+    bottom: 0vh;
+    right: 0vw;
 }
